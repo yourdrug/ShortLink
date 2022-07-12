@@ -1,0 +1,18 @@
+
+{% extends 'main/template.html' %}
+
+{% block title %}
+    Укротитель
+{% endblock %}
+
+
+{% block content %}
+
+<form class = "box" method="post">
+    {% csrf_token %}
+     <div class = "form-label">  Авторизация </div>
+    {{ form.username }}
+    {{ form.password }}
+    <button class = "btn" type = "submit"> Войти </button>
+</form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'main/template.html' %}
+
+{% block title %}
+    Укротитель
+{% endblock %}
+
+{% block content %}
+      <h2 style="margin-left: 50px; ">PROFILE PAGE</h2></p>
+    {% for r in record %}
+        <li class="short">
+            <h6> {{ r.shortLink }}</h6>
+            <p> {{ r.time_create }}</p>
+        </li>
+    {% endfor %}
+{% endblock %}

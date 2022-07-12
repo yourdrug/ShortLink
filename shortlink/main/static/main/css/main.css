@@ -1,0 +1,266 @@
+body{
+    background: #e6ffff;
+}
+
+.form{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 35px;
+    text-align:center;
+    padding 14px 10px;
+    width: 100%;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input[type ="url"]{
+    width: 600px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+}
+
+.features input[type = "text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 35px;
+    text-align:center;
+    border:2px solid #d7a7db;
+    padding 14px 10px;
+    width: 500px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.btn-cut{
+    margin-left: 30px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 5px;
+    background-color: #d7a7db;
+    border-radius: 100px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-cut:hover{
+    color: #000;
+    transform: scale(1.1);
+}
+
+img{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.navbar{
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: #000;
+
+    text-decoration: none;
+    padding: 15px;
+    transition: all 0.1s ease-in;
+}
+
+.navbar-menu li a:hover{
+    color: #88388f;
+    transform: scale(1.1);
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+}
+
+.navbar-brand:hover{
+    color: #000;
+}
+
+.signup, .signin{
+    margin-left: 30px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 5px;
+    background-color: #d7a7db;
+    border-radius: 100px;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar .name{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 20px;
+
+}
+
+.navbar .logout{
+    margin-left: 30px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 5px;
+    background-color: #d7a7db;
+    border-radius: 100px;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar .logout:hover{
+    color: #000;
+    transform: scale(1.05);
+}
+
+.signin:hover{
+    color: #000;
+    transform: scale(1.05);
+}
+
+.signup:hover{
+    color: #000;
+    transform: scale(1.05);
+}
+
+.box{
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+}
+
+.box .form-input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 35px;
+    text-align:center;
+    border:2px solid #d7a7db;
+    padding 14px 10px;
+    width: 300px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box .form-label {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.box .form-input:focus{
+    width: 320px;
+    border-color: black;
+}
+
+.box .btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 50px;
+    text-align:center;
+    border:2px solid #d7a7db;
+    padding 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box .btn:hover, .btn:hover{
+    background: #d7a7db;
+    transform: scale(1.1);
+}
+
+
+.features{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 500px;
+}
+
+
+
+.short{
+    margin-left: 50px;
+    text-decoration: none;
+    border: 2px solid #000;
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.shorturl{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.btn{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-top: 50px;
+    text-align:center;
+    border:2px solid #d7a7db;
+    padding 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
